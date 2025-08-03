@@ -1,0 +1,11 @@
+pandas==2.3.0
+numpy==2.3.1
+plotly==6.1.2
+plotly-express==0.4.1
+streamlit==1.46.0
+yfinance==0.2.63
+tensorflow==2.20.0rc0
+feedparser==6.0.11
+transformers==4.53.2
+stable-baselines3==2.7.0
+torch== 2.6
