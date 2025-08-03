@@ -1,2 +1,95 @@
-# AI_in_Finance
-combining finance with AI using deep reinforcement learning (DRL)
+# AI in Finance – Smart Portfolio Optimization using Deep Reinforcement Learning
+
+A project that uses Deep Reinforcement Learning (DRL) and financial news sentiment to develop intelligent stock trading agents.
+
+---
+## Live Demo
+
+A live version of the project dashboard is available here:
+**[https://your-streamlit-app-link.com](https://your-streamlit-app-link.com)**
+
+---
+## About The Project
+
+This project aims to create a smart portfolio management system by training a Deep Reinforcement Learning agent in a simulated stock market environment. The agent's decision-making process is enhanced by incorporating sentiment analysis of financial news, allowing it to learn strategies that adapt to both market price movements and public sentiment.
+
+### Key Features
+* Custom stock trading environment built with an OpenAI Gym-style interface.
+* DRL agent (PPO/DDPG) trained using state-of-the-art libraries.
+* Sentiment analysis module using FinBERT to process financial news.
+* Interactive Streamlit dashboard for performance visualization and analysis.
+
+---
+## Technology Stack
+
+* **Python**: Core programming language
+* **PyTorch**: For building neural network models
+* **Stable-Baselines3**: For DRL agent implementation
+* **Transformers (Hugging Face)**: For using the FinBERT model
+* **yfinance**: For fetching historical stock market data
+* **Streamlit & Plotly**: For creating the interactive web dashboard
+* **Pandas & NumPy**: For data manipulation
+
+---
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+* Python 3.8+
+* pip package manager
+
+### Installation
+
+1.  Clone the repository:
+    ```sh
+    git clone [https://github.com/your-username/ai-in-finance-drl.git](https://github.com/your-username/ai-in-finance-drl.git)
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd Custom_DRL_Model
+    ```
+3.  Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+### Running the Application
+
+1.  To run the training pipeline for the DRL agent:
+    ```sh
+    python main.py
+    ```
+
+2.  To launch the visualization dashboard:
+    ```sh
+    streamlit run dashboard/app.py
+    ```
+
+---
+## Project Structure
+project-root/
+│
+├── agents/             # DRL agent code (PPO, DDPG, etc.)
+├── env/                # Custom Gym environment (state, reward, actions)
+├── sentiment/          # FinBERT-based sentiment analysis code
+├── dashboard/          # Streamlit app code for visualization
+├── data/               # CSV, stock data, processed sentiment scores
+├── main.py             # Training pipeline entry point
+└── README.md           # Project documentation
+
+---
+## Team and Contributions
+
+* **Praneet**: DRL agent implementation (PPO/DDPG)
+* **Chinmay**: Environment design and reward function
+* **Naman**: Sentiment module using FinBERT
+* **Himanshu**: Streamlit dashboard and integration
+
+---
+## Future Work
+
+* Integrate real-time price feeds for a live environment.
+* Deploy the model for paper trading on a live platform.
+* Expand backtesting to include other asset classes like cryptocurrencies or ETFs.
