@@ -1,3 +1,8 @@
+# Data files
+data/
+sentiment_dashboard_data/
+dashboard_data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
