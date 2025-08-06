@@ -89,7 +89,7 @@ project-root/
 ## Team and Contributions
 
 * **Praneet**: DRL agent implementation
-* **Chinmay**: Environment design and reward function
+* **Chinmay**: Environment design and Segment integration
 * **Naman**: Sentiment module using FinBERT
 * **Himanshu**: Streamlit dashboard and integration
 
