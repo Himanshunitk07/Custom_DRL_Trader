@@ -37,7 +37,7 @@ Follow these steps to set up and run the project locally.
 
 ### Prerequisites
 
-* Python 3.8+
+* Python 3.12.7
 * pip package manager
 
 ### Installation
@@ -57,14 +57,20 @@ Follow these steps to set up and run the project locally.
 
 ### Running the Application
 
-1.  To run the training pipeline for the DRL agent:
+1.  **Generate Agent and Sentiment Data**:
+    Before launching the dashboard, you must generate the necessary CSV files. Run the following scripts:
     ```sh
-    python main.py
+    # (Script to run the agent)
+    python run_agent_training.py 
+    
+    # (Script to run sentiment analysis)
+    python generate_sentiment_csvs.py
     ```
 
-2.  To launch the visualization dashboard:
+2.  **Launch the Dashboard**:
+    Once the `dashboard_data` and `sentiment_dashboard_data` folders have been created, you can start the Streamlit app:
     ```sh
-    streamlit run dashboard/app.py
+    streamlit run app.py
     ```
 
 ---
