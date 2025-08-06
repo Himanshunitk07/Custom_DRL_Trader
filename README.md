@@ -81,9 +81,9 @@ project-root/
 ├── env/                # Custom Gym environment (state, reward, actions)
 ├── sentiment/          # FinBERT-based sentiment analysis code
 ├── dashboard/          # Streamlit app code for visualization
-├── data/               # CSV, stock data, processed sentiment scores
-├── main.py             # Training pipeline entry point
-└── README.md           # Project documentation
+├── .gitignore              
+├── requirement.txt             
+└── README.md          
 
 ---
 ## Team and Contributions
