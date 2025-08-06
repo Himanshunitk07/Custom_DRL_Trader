@@ -15,7 +15,7 @@ This project aims to create a smart portfolio management system by training a De
 
 ### Key Features
 * Custom stock trading environment built with an OpenAI Gym-style interface.
-* DRL agent (PPO/DDPG) trained using state-of-the-art libraries.
+* DRL agent trained using state-of-the-art libraries.
 * Sentiment analysis module using FinBERT to process financial news.
 * Interactive Streamlit dashboard for performance visualization and analysis.
 
@@ -77,7 +77,7 @@ Follow these steps to set up and run the project locally.
 ## Project Structure
 project-root/
 │
-├── agents/             # DRL agent code (PPO, DDPG, etc.)
+├── agents/             # DRL agent code
 ├── env/                # Custom Gym environment (state, reward, actions)
 ├── sentiment/          # FinBERT-based sentiment analysis code
 ├── dashboard/          # Streamlit app code for visualization
@@ -88,7 +88,7 @@ project-root/
 ---
 ## Team and Contributions
 
-* **Praneet**: DRL agent implementation (PPO/DDPG)
+* **Praneet**: DRL agent implementation
 * **Chinmay**: Environment design and reward function
 * **Naman**: Sentiment module using FinBERT
 * **Himanshu**: Streamlit dashboard and integration
